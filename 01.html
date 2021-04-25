@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>创建类和对象</title>
+</head>
+<body>
+  <script>
+    //在es6中直接使用class关键字创建一个类
+    class Cats {
+      constructor(name, age) {
+        this.name = name;
+        this.age = age
+      }
+    }
+    //新建一个对象，---这个类的实例
+    var cat1 = new Cats('guai', 8)
+    var cat2 = new Cats('ping',9)
+
+    console.log(cat1)
+    console.log(cat2)
+  </script>
+</body>
+</html>
